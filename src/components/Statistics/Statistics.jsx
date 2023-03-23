@@ -20,7 +20,7 @@ export function Statistics({ good, neutral, bad, total, positivePercentage }) {
           Total: {total}
         </li>
         <li className="statistics__item">
-          Positive feedback: {Number.positivePercentage}%
+          Positive feedback: {positivePercentage}%
         </li>
       </StatisticsListStyled>
     </>
